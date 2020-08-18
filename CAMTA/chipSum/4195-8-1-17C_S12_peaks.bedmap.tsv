@@ -1,0 +1,2 @@
+	chrom	start	end	acc	score	strand	FC	neglogPval	neglogQval	summit	img	feature_chrom	feature_start	feature_end	feature_acc	feature_score	feature_strand	distance	hit	condition
+2245	2	8911517	8913554	4195-8-1-17C_S12_peak_25521	386	.	9.604330000000001	38.60683	32.665659999999995	788	2	8910665	8914972	AT2G20670	.	-	CDS	0	.	4195-8-1-17C_S12_peaks

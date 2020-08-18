@@ -1,0 +1,2 @@
+	chrom	start	end	acc	score	strand	FC	neglogPval	neglogQval	summit	img	feature_chrom	feature_start	feature_end	feature_acc	feature_score	feature_strand	distance	hit	condition
+405	2	9467652	9476499	pCAMTA3-22C-cycloheximide_S6_peak_17251	587	.	11.53101	58.78521	50.70733	6661	2	9475235	9480325	AT2G22310	.	-	CDS	0	.	pCAMTA3-22C-cycloheximide_S6_peaks

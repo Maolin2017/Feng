@@ -1,0 +1,2 @@
+	chrom	start	end	acc	score	strand	FC	neglogPval	neglogQval	summit	img	feature_chrom	feature_start	feature_end	feature_acc	feature_score	feature_strand	distance	hit	condition
+14610	Pt	23776	30357	HDAC-22-4DAG_S18_peak_240	1696	.	46.42096	169.61226000000002	161.53456	1323	Pt	27209	30311	ATCG00220	.	-	CDS	0	.	HDAC-22-4DAG_S18_peaks

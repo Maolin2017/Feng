@@ -1,0 +1,5 @@
+{
+    "peakFile": "174CS20-166CS24-combined_radius=1-val_166CS24-val_174CS20-GT-0dot7.bed", 
+    "peakFileOrig": "174CS20-166CS24-combined_radius=1.tsv", 
+    "cluFile": "val_166CS24-val_174CS20-GT-0dot7.csv"
+}

@@ -1,0 +1,2 @@
+	chrom	start	end	acc	score	strand	FC	neglogPval	neglogQval	summit	img	feature_chrom	feature_start	feature_end	feature_acc	feature_score	feature_strand	distance	hit	condition
+1065	3	9831592	9838973	pICE1--ICE1-LD-22C-ZT0--22C-mock_S7_peak_34419	735	.	12.37378	73.57972	65.55864	2467	3	9838641	9843219	AT3G26750	.	-	CDS	0	.	pICE1--ICE1-LD-22C-ZT0--22C-mock_S7_peaks

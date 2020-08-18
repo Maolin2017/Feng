@@ -1,0 +1,152 @@
+
+    <html>
+    <head>
+    <style> 
+        body {font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica neue"}
+    </style>
+    <title>IGV screenshots for figureIndex.tsv</title>
+    
+    <script>
+    //var frame = window.frames["postFrame"];
+    //var frame = document.getElementsByName("postFrame")[0];
+
+    //dir = document.URL.replace(/^.*[\\/]/, '')
+    //var frame = window.open("about:blank","postFrame", 'height=440,width=260,scrollbars=yes');
+    console.log(document.URL);
+
+
+    // Pass the checkbox name to the function
+    function checkbox() {
+       // var frame = window.frames["postFrame"];
+    //    var doc = frame.document;
+    //  var doc = frame.contentDocument || frame.contentWindow.document
+
+      //opened.open();
+      var checkboxes = document.getElementsByName("line");
+      var checkboxesChecked = [];
+
+      // loop over them all
+      html_string = '';
+      for (var i=0; i<checkboxes.length; i++) {
+         // And stick the checked ones onto an array...
+         if (checkboxes[i].checked) {
+            checkboxesChecked.push(checkboxes[i]);
+            html_string += checkboxes[i].value + '<br>';
+    //        doc.writeln(checkboxes[i].value);
+    //        doc.write("<br>");
+         }
+      }
+      src = "data:text/html;charset=utf-8," + escape(html_string);
+       var frame = window.open(src,"postFrame", 'height=440,width=260,scrollbars=yes');
+
+      //opened.close()
+      // Return the array if it is non-empty, or null
+      return checkboxesChecked.length > 0 ? checkboxesChecked : null;
+    }
+    </script>
+    </head>
+
+    <body>
+<p><b>Peak_position&nbsp; &nbsp;Peak_name&nbsp; &nbsp;Integer_score_for_display&nbsp; &nbsp;Dot&nbsp; &nbsp;fold-change&nbsp; &nbsp; -log10pvalue&nbsp; &nbsp; -log10qvalue&nbsp; &nbsp;Relative_summit_position_to_peak_start</b></p><iframe name="postFrame"></iframe><form><input type="submit" value="Save" size="35" onClick="return checkbox();">
+<input type="checkbox" id="0" name="line" value="1	467685	467686	AT1G02340	.	-	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT1G02340.svg" ><font color=#ff9999>1	467685	467686	AT1G02340	.	-	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT1G02340.svg</font><br/>
+<font color=#ff9999>1&emsp; 467685&emsp; 467686&emsp; AT1G02340&emsp; .&emsp; -&emsp; CDS&emsp; /home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT1G02340.svg</font><br/>
+<a href="./AT1G02340.svg">
+<img src="./AT1G02340.svg"></a><br/><br/>
+<input type="checkbox" id="1" name="line" value="1	1036128	1036129	AT1G04010	.	-	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT1G04010.svg" ><font color=#ff9999>1	1036128	1036129	AT1G04010	.	-	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT1G04010.svg</font><br/>
+<font color=#ff9999>1&emsp; 1036128&emsp; 1036129&emsp; AT1G04010&emsp; .&emsp; -&emsp; CDS&emsp; /home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT1G04010.svg</font><br/>
+<a href="./AT1G04010.svg">
+<img src="./AT1G04010.svg"></a><br/><br/>
+<input type="checkbox" id="2" name="line" value="1	1104622	1104623	AT1G04180	.	+	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT1G04180.svg" ><font color=#ff9999>1	1104622	1104623	AT1G04180	.	+	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT1G04180.svg</font><br/>
+<font color=#ff9999>1&emsp; 1104622&emsp; 1104623&emsp; AT1G04180&emsp; .&emsp; +&emsp; CDS&emsp; /home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT1G04180.svg</font><br/>
+<a href="./AT1G04180.svg">
+<img src="./AT1G04180.svg"></a><br/><br/>
+<input type="checkbox" id="3" name="line" value="1	8062397	8062398	AT1G22770	.	+	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT1G22770.svg" ><font color=#ff9999>1	8062397	8062398	AT1G22770	.	+	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT1G22770.svg</font><br/>
+<font color=#ff9999>1&emsp; 8062397&emsp; 8062398&emsp; AT1G22770&emsp; .&emsp; +&emsp; CDS&emsp; /home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT1G22770.svg</font><br/>
+<a href="./AT1G22770.svg">
+<img src="./AT1G22770.svg"></a><br/><br/>
+<input type="checkbox" id="4" name="line" value="1	9544606	9544607	AT1G27480	.	+	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT1G27480.svg" ><font color=#ff9999>1	9544606	9544607	AT1G27480	.	+	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT1G27480.svg</font><br/>
+<font color=#ff9999>1&emsp; 9544606&emsp; 9544607&emsp; AT1G27480&emsp; .&emsp; +&emsp; CDS&emsp; /home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT1G27480.svg</font><br/>
+<a href="./AT1G27480.svg">
+<img src="./AT1G27480.svg"></a><br/><br/>
+<input type="checkbox" id="5" name="line" value="2	8140078	8140079	AT2G18790	.	+	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT2G18790.svg" ><font color=#ff9999>2	8140078	8140079	AT2G18790	.	+	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT2G18790.svg</font><br/>
+<font color=#ff9999>2&emsp; 8140078&emsp; 8140079&emsp; AT2G18790&emsp; .&emsp; +&emsp; CDS&emsp; /home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT2G18790.svg</font><br/>
+<a href="./AT2G18790.svg">
+<img src="./AT2G18790.svg"></a><br/><br/>
+<input type="checkbox" id="6" name="line" value="2	11380699	11380700	AT2G26710	.	+	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT2G26710.svg" ><font color=#ff9999>2	11380699	11380700	AT2G26710	.	+	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT2G26710.svg</font><br/>
+<font color=#ff9999>2&emsp; 11380699&emsp; 11380700&emsp; AT2G26710&emsp; .&emsp; +&emsp; CDS&emsp; /home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT2G26710.svg</font><br/>
+<a href="./AT2G26710.svg">
+<img src="./AT2G26710.svg"></a><br/><br/>
+<input type="checkbox" id="7" name="line" value="2	17837187	17837188	AT2G42870	.	-	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT2G42870.svg" ><font color=#ff9999>2	17837187	17837188	AT2G42870	.	-	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT2G42870.svg</font><br/>
+<font color=#ff9999>2&emsp; 17837187&emsp; 17837188&emsp; AT2G42870&emsp; .&emsp; -&emsp; CDS&emsp; /home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT2G42870.svg</font><br/>
+<a href="./AT2G42870.svg">
+<img src="./AT2G42870.svg"></a><br/><br/>
+<input type="checkbox" id="8" name="line" value="2	18519525	18519526	AT2G44910	.	-	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT2G44910.svg" ><font color=#ff9999>2	18519525	18519526	AT2G44910	.	-	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT2G44910.svg</font><br/>
+<font color=#ff9999>2&emsp; 18519525&emsp; 18519526&emsp; AT2G44910&emsp; .&emsp; -&emsp; CDS&emsp; /home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT2G44910.svg</font><br/>
+<a href="./AT2G44910.svg">
+<img src="./AT2G44910.svg"></a><br/><br/>
+<input type="checkbox" id="9" name="line" value="2	19180903	19180904	AT2G46690	.	+	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT2G46690.svg" ><font color=#ff9999>2	19180903	19180904	AT2G46690	.	+	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT2G46690.svg</font><br/>
+<font color=#ff9999>2&emsp; 19180903&emsp; 19180904&emsp; AT2G46690&emsp; .&emsp; +&emsp; CDS&emsp; /home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT2G46690.svg</font><br/>
+<a href="./AT2G46690.svg">
+<img src="./AT2G46690.svg"></a><br/><br/>
+<input type="checkbox" id="10" name="line" value="2	19297678	19297679	AT2G46970	.	-	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT2G46970.svg" ><font color=#ff9999>2	19297678	19297679	AT2G46970	.	-	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT2G46970.svg</font><br/>
+<font color=#ff9999>2&emsp; 19297678&emsp; 19297679&emsp; AT2G46970&emsp; .&emsp; -&emsp; CDS&emsp; /home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT2G46970.svg</font><br/>
+<a href="./AT2G46970.svg">
+<img src="./AT2G46970.svg"></a><br/><br/>
+<input type="checkbox" id="11" name="line" value="3	781488	781489	AT3G03310	.	-	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT3G03310.svg" ><font color=#ff9999>3	781488	781489	AT3G03310	.	-	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT3G03310.svg</font><br/>
+<font color=#ff9999>3&emsp; 781488&emsp; 781489&emsp; AT3G03310&emsp; .&emsp; -&emsp; CDS&emsp; /home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT3G03310.svg</font><br/>
+<a href="./AT3G03310.svg">
+<img src="./AT3G03310.svg"></a><br/><br/>
+<input type="checkbox" id="12" name="line" value="3	16368889	16368890	AT3G44830	.	+	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT3G44830.svg" ><font color=#ff9999>3	16368889	16368890	AT3G44830	.	+	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT3G44830.svg</font><br/>
+<font color=#ff9999>3&emsp; 16368889&emsp; 16368890&emsp; AT3G44830&emsp; .&emsp; +&emsp; CDS&emsp; /home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT3G44830.svg</font><br/>
+<a href="./AT3G44830.svg">
+<img src="./AT3G44830.svg"></a><br/><br/>
+<input type="checkbox" id="13" name="line" value="3	17183247	17183248	AT3G46640	.	+	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT3G46640.svg" ><font color=#ff9999>3	17183247	17183248	AT3G46640	.	+	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT3G46640.svg</font><br/>
+<font color=#ff9999>3&emsp; 17183247&emsp; 17183248&emsp; AT3G46640&emsp; .&emsp; +&emsp; CDS&emsp; /home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT3G46640.svg</font><br/>
+<a href="./AT3G46640.svg">
+<img src="./AT3G46640.svg"></a><br/><br/>
+<input type="checkbox" id="14" name="line" value="3	20015299	20015300	AT3G54040	.	-	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT3G54040.svg" ><font color=#ff9999>3	20015299	20015300	AT3G54040	.	-	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT3G54040.svg</font><br/>
+<font color=#ff9999>3&emsp; 20015299&emsp; 20015300&emsp; AT3G54040&emsp; .&emsp; -&emsp; CDS&emsp; /home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT3G54040.svg</font><br/>
+<a href="./AT3G54040.svg">
+<img src="./AT3G54040.svg"></a><br/><br/>
+<input type="checkbox" id="15" name="line" value="4	8138196	8138197	AT4G14130	.	-	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT4G14130.svg" ><font color=#ff9999>4	8138196	8138197	AT4G14130	.	-	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT4G14130.svg</font><br/>
+<font color=#ff9999>4&emsp; 8138196&emsp; 8138197&emsp; AT4G14130&emsp; .&emsp; -&emsp; CDS&emsp; /home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT4G14130.svg</font><br/>
+<a href="./AT4G14130.svg">
+<img src="./AT4G14130.svg"></a><br/><br/>
+<input type="checkbox" id="16" name="line" value="4	9449290	9449291	AT4G16780	.	+	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT4G16780.svg" ><font color=#ff9999>4	9449290	9449291	AT4G16780	.	+	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT4G16780.svg</font><br/>
+<font color=#ff9999>4&emsp; 9449290&emsp; 9449291&emsp; AT4G16780&emsp; .&emsp; +&emsp; CDS&emsp; /home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT4G16780.svg</font><br/>
+<a href="./AT4G16780.svg">
+<img src="./AT4G16780.svg"></a><br/><br/>
+<input type="checkbox" id="17" name="line" value="4	10780260	10780261	AT4G19860	.	-	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT4G19860.svg" ><font color=#ff9999>4	10780260	10780261	AT4G19860	.	-	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT4G19860.svg</font><br/>
+<font color=#ff9999>4&emsp; 10780260&emsp; 10780261&emsp; AT4G19860&emsp; .&emsp; -&emsp; CDS&emsp; /home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT4G19860.svg</font><br/>
+<a href="./AT4G19860.svg">
+<img src="./AT4G19860.svg"></a><br/><br/>
+<input type="checkbox" id="18" name="line" value="4	14192687	14192688	AT4G28720	.	+	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT4G28720.svg" ><font color=#ff9999>4	14192687	14192688	AT4G28720	.	+	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT4G28720.svg</font><br/>
+<font color=#ff9999>4&emsp; 14192687&emsp; 14192688&emsp; AT4G28720&emsp; .&emsp; +&emsp; CDS&emsp; /home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT4G28720.svg</font><br/>
+<a href="./AT4G28720.svg">
+<img src="./AT4G28720.svg"></a><br/><br/>
+<input type="checkbox" id="19" name="line" value="5	641461	641462	AT5G02810	.	-	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT5G02810.svg" ><font color=#ff9999>5	641461	641462	AT5G02810	.	-	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT5G02810.svg</font><br/>
+<font color=#ff9999>5&emsp; 641461&emsp; 641462&emsp; AT5G02810&emsp; .&emsp; -&emsp; CDS&emsp; /home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT5G02810.svg</font><br/>
+<a href="./AT5G02810.svg">
+<img src="./AT5G02810.svg"></a><br/><br/>
+<input type="checkbox" id="20" name="line" value="5	4393528	4393529	AT5G13640	.	+	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT5G13640.svg" ><font color=#ff9999>5	4393528	4393529	AT5G13640	.	+	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT5G13640.svg</font><br/>
+<font color=#ff9999>5&emsp; 4393528&emsp; 4393529&emsp; AT5G13640&emsp; .&emsp; +&emsp; CDS&emsp; /home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT5G13640.svg</font><br/>
+<a href="./AT5G13640.svg">
+<img src="./AT5G13640.svg"></a><br/><br/>
+<input type="checkbox" id="21" name="line" value="5	5966580	5966581	AT5G18020	.	-	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT5G18020.svg" ><font color=#ff9999>5	5966580	5966581	AT5G18020	.	-	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT5G18020.svg</font><br/>
+<font color=#ff9999>5&emsp; 5966580&emsp; 5966581&emsp; AT5G18020&emsp; .&emsp; -&emsp; CDS&emsp; /home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT5G18020.svg</font><br/>
+<a href="./AT5G18020.svg">
+<img src="./AT5G18020.svg"></a><br/><br/>
+<input type="checkbox" id="22" name="line" value="5	5968526	5968527	AT5G18030	.	+	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT5G18030.svg" ><font color=#ff9999>5	5968526	5968527	AT5G18030	.	+	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT5G18030.svg</font><br/>
+<font color=#ff9999>5&emsp; 5968526&emsp; 5968527&emsp; AT5G18030&emsp; .&emsp; +&emsp; CDS&emsp; /home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT5G18030.svg</font><br/>
+<a href="./AT5G18030.svg">
+<img src="./AT5G18030.svg"></a><br/><br/>
+<input type="checkbox" id="23" name="line" value="5	21265173	21265174	AT5G52390	.	-	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT5G52390.svg" ><font color=#ff9999>5	21265173	21265174	AT5G52390	.	-	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT5G52390.svg</font><br/>
+<font color=#ff9999>5&emsp; 21265173&emsp; 21265174&emsp; AT5G52390&emsp; .&emsp; -&emsp; CDS&emsp; /home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT5G52390.svg</font><br/>
+<a href="./AT5G52390.svg">
+<img src="./AT5G52390.svg"></a><br/><br/>
+<input type="checkbox" id="24" name="line" value="2	17886101	17886102	AT2G43010	.	+	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT2G43010.svg" ><font color=#ff9999>2	17886101	17886102	AT2G43010	.	+	CDS	/home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT2G43010.svg</font><br/>
+<font color=#ff9999>2&emsp; 17886101&emsp; 17886102&emsp; AT2G43010&emsp; .&emsp; +&emsp; CDS&emsp; /home/feng/envs/CAMTA/PROG=chipShots_bedFile=key_ath.csv.cds.summit/AT2G43010.svg</font><br/>
+<a href="./AT2G43010.svg">
+<img src="./AT2G43010.svg"></a><br/><br/>
+</form></body>
+</html>

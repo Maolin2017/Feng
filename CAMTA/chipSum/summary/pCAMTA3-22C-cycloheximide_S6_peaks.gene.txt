@@ -1,0 +1,2 @@
+	geneAcc	maxFoldChange	peakAcc
+405	.	11.53101	pCAMTA3-22C-cycloheximide_S6_peak_17251

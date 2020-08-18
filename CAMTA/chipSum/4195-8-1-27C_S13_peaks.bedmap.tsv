@@ -1,0 +1,2 @@
+	chrom	start	end	acc	score	strand	FC	neglogPval	neglogQval	summit	img	feature_chrom	feature_start	feature_end	feature_acc	feature_score	feature_strand	distance	hit	condition
+1916	3	5212870	5214491	4195-8-1-27C_S13_peak_32548	358	.	8.32673	35.880829999999996	28.94908	666	3	5212781	5217688	AT3G15460	.	-	CDS	0	.	4195-8-1-27C_S13_peaks

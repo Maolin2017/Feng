@@ -1,0 +1,148 @@
+[
+    {
+        "CUTOFF_CHIPDIFF": 1.0, 
+        "CUTOFF_FC": 3.0, 
+        "name": "198C-ICE1-cold-R2", 
+        "script": "chipTarget", 
+        "control": "198CS14", 
+        "treatment": "198CS15"
+    }, 
+    {
+        "CUTOFF_CHIPDIFF": 1.0, 
+        "CUTOFF_FC": 3.0, 
+        "name": "198C-ICE1-CHX-R2", 
+        "script": "chipTarget", 
+        "control": "198CS14", 
+        "treatment": "198CS16"
+    }, 
+
+    
+    
+    {
+        "CUTOFF_CHIPDIFF": 1.0, 
+        "CUTOFF_FC": 3.0, 
+        "name": "198C-ICE1-cold-R2", 
+        "script": "chipTarget", 
+        "control": "198CS1", 
+        "treatment": "198CS2"
+    }, 
+    {
+        "CUTOFF_CHIPDIFF": 1.0, 
+        "CUTOFF_FC": 3.0, 
+        "name": "198C-ICE1-CHX-R2", 
+        "script": "chipTarget", 
+        "control": "198CS1", 
+        "treatment": "198CS3"
+    }, 
+    
+    
+    
+    
+     
+    {
+        "CUTOFF_CHIPDIFF": 1.0, 
+        "CUTOFF_FC": 3.0, 
+        "name": "198C-CAMTA3-camta123-cold-R1", 
+        "script": "chipTarget", 
+        "control": "198CS10", 
+        "treatment": "198CS11"
+    }, 
+    {
+        "CUTOFF_CHIPDIFF": 1.0, 
+        "CUTOFF_FC": 3.0, 
+        "name": "198C-CAMTA3-camta123-CHX-R1", 
+        "script": "chipTarget", 
+        "control": "198CS10", 
+        "treatment": "198CS12"
+    }, 
+    {
+        "CUTOFF_CHIPDIFF": 1.0, 
+        "CUTOFF_FC": 3.0, 
+        "name": "198C-CAMTA3-camta123-cold-R1", 
+        "script": "chipTarget", 
+        "control": "198CS23", 
+        "treatment": "198CS24"
+    },        
+    
+    
+    
+    
+    {
+        "CUTOFF_CHIPDIFF": 1.0, 
+        "CUTOFF_FC": 3.0, 
+        "name": "198C-CAMTA2-camta123-cold-R2", 
+        "script": "chipTarget", 
+        "control": "198CS20",
+        "treatment": "198CS21"
+    }, 
+    {
+        "CUTOFF_CHIPDIFF": 1.0, 
+        "CUTOFF_FC": 3.0, 
+        "name": "198C-CAMTA2-camta123-CHX-R2", 
+        "script": "chipTarget", 
+        "control": "198CS20",
+        "treatment": "198CS22"
+    }, 
+    
+    
+    
+    
+    {
+        "CUTOFF_CHIPDIFF": 1.0, 
+        "CUTOFF_FC": 3.0, 
+        "name": "198C-CAMTA2-camta123-cold-R1", 
+        "script": "chipTarget", 
+        "control": "198CS7",
+        "treatment": "198CS8"
+    }, 
+    {
+        "CUTOFF_CHIPDIFF": 1.0, 
+        "CUTOFF_FC": 3.0, 
+        "name": "198C-CAMTA2-camta123-CHX-R1", 
+        "script": "chipTarget", 
+        "control": "198CS7",
+        "treatment": "198CS9"
+    },     
+    
+    
+    
+    
+    
+    
+    {
+        "CUTOFF_CHIPDIFF": 1.0, 
+        "CUTOFF_FC": 3.0, 
+        "name": "198C-CAMTA1-camta123-cold-R2", 
+        "script": "chipTarget", 
+        "control": "198CS17", 
+        "treatment": "198CS18"
+    }, 
+    {
+        "CUTOFF_CHIPDIFF": 1.0, 
+        "CUTOFF_FC": 3.0, 
+        "name": "198C-CAMTA1-camta123-CHX-R2", 
+        "script": "chipTarget", 
+        "control": "198CS17", 
+        "treatment": "198CS19"
+    },
+    {
+        "CUTOFF_CHIPDIFF": 1.0, 
+        "CUTOFF_FC": 3.0, 
+        "name": "198C-CAMTA1-camta123-cold-R2", 
+        "script": "chipTarget", 
+        "control": "198CS4", 
+        "treatment": "198CS5"
+    }, 
+    
+    {
+        "CUTOFF_CHIPDIFF": 1.0, 
+        "CUTOFF_FC": 3.0, 
+        "name": "198C-CAMTA1-camta123-CHX-R2", 
+        "script": "chipTarget", 
+        "control": "198CS4", 
+        "treatment": "198CS6"
+    }
+
+
+    
+]

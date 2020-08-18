@@ -1,0 +1,2 @@
+	geneAcc	maxFoldChange	peakAcc
+1916	.	8.32673	4195-8-1-27C_S13_peak_32548

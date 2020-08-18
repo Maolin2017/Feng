@@ -1,0 +1,2 @@
+	chrom	start	end	acc	score	strand	FC	neglogPval	neglogQval	summit	img	feature_chrom	feature_start	feature_end	feature_acc	feature_score	feature_strand	distance	hit	condition
+283	3	9831459	9838980	pICE1-ICE1-LD-22C-ZT0--22C-cycloheximide_S9_peak_26770	765	.	11.50201	76.54163	68.52511	2612	3	9829899	9833052	AT3G26742	.	+	CDS	0	.	pICE1-ICE1-LD-22C-ZT0--22C-cycloheximide_S9_peaks

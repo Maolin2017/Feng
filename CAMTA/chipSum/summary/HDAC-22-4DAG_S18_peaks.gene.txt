@@ -1,0 +1,2 @@
+	geneAcc	maxFoldChange	peakAcc
+14610	.	46.42096	HDAC-22-4DAG_S18_peak_240

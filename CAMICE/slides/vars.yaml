@@ -1,0 +1,37 @@
+ARG_TRIMMO_PE: 'ILLUMINACLIP:${{FA_ADAPTER}}:6:30:10 LEADING:3 TRAILING:3 MINLEN:36 SLIDINGWINDOW:4:15'
+ARG_HISAT2: '--no-mixed --rna-strandness RF --dta --fr'
+
+GENOME: '"sPta717-v1-1" (downloaded from "http://aspendb.uga.edu/index.php/databases/spta-717-genome")'
+ANNO_INFO: '"Ptrichocarpa_444_v3.1.annotation_info.txt" (bulk downloaded from Phytozome 12  https://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Ptrichocarpa_er)'
+ARG_STRINGTIE: '--rf'
+
+ARG_TRIMMO_PE_TOPHAT: 'ILLUMINACLIP:${{FA_ADAPTER}}:2:10:5:1'
+ARG_TOPHAT: '--no-mixed --max-multihits 1'
+ARG_CUFFLINKS: '--frag-bias-correct --multi-read-correct'
+
+ARG_BOWTIE2: '--no-mixed --no-discordant --no-unal -k2'
+ARG_MACS2: '--keep-dup 1 -p 0.1'
+MACS2_FILTER: 'FC>3.0'
+CUTOFF_PEAK2GENE: '6000bp'
+# CUTOFF_ENT: '{{CUTOFF_ENT}}'
+CUTOFF_ENT: '2.5'
+OPTIMAL_CONC: '~3.080'
+WINDOW_SIZE: '100'
+
+CUTOFF_PEAKOP_FILTER: 'FC>3.0'
+CUTOFF_PEAKOVERLAP: '1000bp'
+
+
+### 0130__callDiffTarg__Brachy-ELF3.py
+CUTOFF_CHIP: '1.5'
+CUTOFF_CHIPSD: '0.5'
+BIN_CHIP: 10
+CUTOFF_MAX: '3.0'
+CUTOFF_interpAUC: '1.0'
+GEO_RNA: '{{GEO_RNA}}'
+GEO_CHIP: '[GEO_ACCESSION]'
+
+####
+GENENO_ALL: '34310'
+GENENO_TPM: '20586'
+GENENO_CLUSTERED: '7301'

@@ -1,0 +1,2 @@
+	geneAcc	maxFoldChange	peakAcc
+371	.	7.20568	pCAMTA3-22C-mock_S4_peak_29731

@@ -1,0 +1,2 @@
+	geneAcc	maxFoldChange	peakAcc
+279	.	31.288240000000002	gELF3myc-17C_S10_peak_3911

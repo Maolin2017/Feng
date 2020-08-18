@@ -1,0 +1,2 @@
+	geneAcc	maxFoldChange	peakAcc
+1065	.	12.37378	pICE1--ICE1-LD-22C-ZT0--22C-mock_S7_peak_34419

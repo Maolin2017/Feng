@@ -1,0 +1,2 @@
+	geneAcc	maxFoldChange	peakAcc
+283	.	11.50201	pICE1-ICE1-LD-22C-ZT0--22C-cycloheximide_S9_peak_26770

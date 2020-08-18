@@ -1,0 +1,2 @@
+	geneAcc	maxFoldChange	peakAcc
+34	.	21.649929999999998	1469-gELF3-myc-elf3-1xELF4-ox-ZT10-27C_S17_peak_3375

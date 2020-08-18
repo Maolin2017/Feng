@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>0501-poplar</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="../pandoc.css">
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header>
+<h1 class="title">0501-poplar</h1>
+</header>
+<nav id="TOC">
+<ul>
+<li><a href="#computational-analysis">Computational analysis:</a></li>
+</ul>
+</nav>
+<h2 id="computational-analysis">Computational analysis:</h2>
+<p><u>DAP-Seq: Mapping, quantification and peak calling</u></p>
+<p>Adapters were trimmed off from raw reads with “trim_galore” (!CITE!TRIM_GALORE). Raw reads were mapped to the genome "sPta717-v1-1" (downloaded from "http://aspendb.uga.edu/index.php/databases/spta-717-genome") with Bowtie2 (<span class="citation" data-cites="BOWTIE2">(<em>1</em>)</span>) under argument:"--no-mixed --no-discordant --no-unal -k2". Duplicate reads were removed with Picard using default setting (!CITE!PICARD). The resultant alignment is used for downstream quantification and visualisation</p>
+<p>Genomic binding profile was quantified in RPKM (Reads Per Kilobase per Million mapped reads) using a bin-size of 10bp. For each bin, <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctext%7BRPKM%7D_%7B%5Ctext%7Bbin%7D%7D%3D%5Cfrac%7B%5C%23%20%5Ctext%7BReads%20covering%20bin%7D%7D%20%7B%20%5Ctext%7Bbin-size%7D%20%7D%20%5Ccdot%20%5Cfrac%7B10%5E6%7D%7B%20%5C%23%5Ctext%7BMapped%20reads%7D%7D" alt="\text{RPKM}_{\text{bin}}=\frac{\# \text{Reads covering bin}} { \text{bin-size} } \cdot \frac{10^6}{ \#\text{Mapped reads}}" title="\text{RPKM}_{\text{bin}}=\frac{\# \text{Reads covering bin}} { \text{bin-size} } \cdot \frac{10^6}{ \#\text{Mapped reads}}" /></p>
+<p>For each treated DAP-Seq library, peaks were called against a control library using MACS2 (!CITE!MACS2) with argument "--keep-dup 1 -p 0.1". Peaks from each DAP-Seq were further fitlered for FC&gt;3.0.</p>
+<p>Any gene with a peak within +/- 6000bp of its start codon is considered a target gene. Best arabidopsis homologue is reported for each target gene, using annotation file "Ptrichocarpa_444_v3.1.annotation_info.txt" (bulk downloaded from Phytozome 12  https://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Ptrichocarpa_er).</p>
+<p><u>Availability and external packages</u></p>
+<p>Post-processing code is available as tarball as attached in the supplementary. It depends on python2 packages <a href="https://github.com/shouldsee/pymisca">pymisca</a> and <a href="https://github.com/shouldsee/synotil">synotil</a>.</p>
+<p>DAP-Seq data are available from: [GEO_ACCESSION]</p>
+<p>GNU-parallel (!CITE!GNUPARA) was used in paralleling the computational analysis.</p>
+<p>Bedtools (!CITE!BEDTOOLS) was used for intersection of peaks, making genomic windows.</p>
+<div id="refs" class="references">
+<div id="ref-BOWTIE2">
+<p>1. B. Langmead, S. L. Salzberg, Fast gapped-read alignment with Bowtie 2. <em>Nature methods</em>. <strong>9</strong>, 357–359 (2012).</p>
+</div>
+</div>
+</body>
+</html>

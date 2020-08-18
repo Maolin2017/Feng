@@ -1,0 +1,2 @@
+	chrom	start	end	acc	score	strand	FC	neglogPval	neglogQval	summit	img	feature_chrom	feature_start	feature_end	feature_acc	feature_score	feature_strand	distance	hit	condition
+279	1	8059295	8062790	gELF3myc-17C_S10_peak_3911	1924	.	31.288240000000002	192.43285	184.35497	1535	1	8059544	8062676	AT1G22767	.	-	CDS	0	.	gELF3myc-17C_S10_peaks

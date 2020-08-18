@@ -1,0 +1,10 @@
+[
+    {
+        "CUTOFF_CHIPDIFF":  -1.0 , 
+        "CUTOFF_FC": 3.0 , 
+        "name": "198C-CBF2-4h-SELF", 
+        "script": "chipTarget", 
+        "control": "198CS13", 
+        "treatment": "198CS13"
+    }
+]

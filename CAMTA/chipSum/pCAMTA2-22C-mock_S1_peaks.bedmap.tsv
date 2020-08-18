@@ -1,0 +1,2 @@
+	chrom	start	end	acc	score	strand	FC	neglogPval	neglogQval	summit	img	feature_chrom	feature_start	feature_end	feature_acc	feature_score	feature_strand	distance	hit	condition
+3502	5	25685591	25691957	pCAMTA2-22C-mock_S1_peak_66041	940	.	15.43881	94.09091	86.01299	1036	5	25684933	25693400	AT5G64220	.	+	CDS	0	.	pCAMTA2-22C-mock_S1_peaks
